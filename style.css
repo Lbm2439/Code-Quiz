@@ -1,0 +1,22 @@
+.left {
+    background-color: pink;
+    float: left;
+    height: 7.2vh;
+}
+.right {
+    background-color: powderblue;
+    float: right;
+    font-size: 40px;
+    text-align: right;
+    height: 7.2vh;
+}
+.body {
+    background-color: plum;
+    float: left;
+    text-align: center;
+    height: 100vh;
+    padding-top: 20vh;
+}
+h1 {
+    font-size: 24px;
+}
