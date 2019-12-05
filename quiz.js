@@ -76,6 +76,7 @@ function showScores() {
     element.innerHTML = gameOverHTML;
 //    save to local storage here
 
+localStorage.setItem("username", score);
 
 
 };
