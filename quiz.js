@@ -58,6 +58,7 @@ function guess(id, guess) {
     button.onclick = function() {
         quiz.guess(guess);
         populate();
+        
     }
 };
  
@@ -70,9 +71,13 @@ function showProgress() {
  
 function showScores() {
     var gameOverHTML = "<h1>Result</h1>";
-    gameOverHTML += "<h2 id='score'> Your scores: " + quiz.score + "</h2>";
+    gameOverHTML += "<h2 id='score'> Your scores: " + quiz.score + "</h2> <a id='check-score' href='indexscore.html'>See your Score</a>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
+//    save to local storage here
+
+
+
 };
  
 // create questions here
