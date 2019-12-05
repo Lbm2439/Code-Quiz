@@ -26,8 +26,8 @@ body {
 }
  
 .grid {
-    width: 600px;
-    height: 500px;
+    width: 600px;s
+    height: 50vh;
     margin: 0 auto;
     background-color: #fff;
     padding: 10px 50px 50px 50px;
@@ -58,7 +58,7 @@ body {
 }
  
 .buttons {
-    margin-top: -25px;
+    margin-top: 0px;
     margin-left: 32px;
 }
  
@@ -84,6 +84,18 @@ body {
 #progress {
     color: #2b2b2b;
     font-size: 18px;
-    margin-left: -5vh;
+    margin-left: 0vh;
+}
+
+input {
+    margin: 20px;
+}
+.timer{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.btn-link {
+    padding-top: 20px;
 }
 

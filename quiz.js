@@ -71,12 +71,12 @@ function showProgress() {
  
 function showScores() {
     var gameOverHTML = "<h1>Result</h1>";
-    gameOverHTML += "<h2 id='score'> Your scores: " + quiz.score + "</h2> <a id='check-score' href='indexscore.html'>See your Score</a>";
+    gameOverHTML += "<h2 id='score'> Your scores: " + quiz.score + "</h2> <a id='check-score' href='indexscore.html'>Record Your Score</a>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
 //    save to local storage here
 
-localStorage.setItem("username", score);
+localStorage.setItem("username", quiz.score);
 
 
 };
@@ -95,6 +95,10 @@ var quiz = new Quiz(questions);
  
 // display quiz
 populate();
+
+
+
+// Timer Below
 
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
